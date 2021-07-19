@@ -1,0 +1,44 @@
+/* Estilos da página html*/
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+ color:darkviolet;
+}
+
+.p-30{
+    padding: 50px;
+}
+
+.wh {
+   width: 300px;
+   height: 300px;
+}
+
+.mg{
+    margin: 60px;
+}
+
+/* Estilos da página html*/
+
+.ml-50{
+    padding: 50px;
+}
