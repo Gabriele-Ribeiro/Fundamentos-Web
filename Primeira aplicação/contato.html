@@ -38,8 +38,9 @@
         <br>
         <label for="assunto">Assunto:</label><br>
         <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <div id="txtAssunto"></div>
         <br><br>
-        <button>Enviar</button class= "mg">
+        <button onclick="enviar()">Enviar</button class= "mg">
     </form >
 </div>
 
@@ -55,7 +56,9 @@
          height="200" 
          style="border:0;" 
          allowfullscreen="" 
-         loading="lazy"></iframe>
+         loading="lazy"
+         onmousemove="mapaZoom()" onmouseout="mapaNormal()"
+        id = 'mapa'></iframe>
     </div> 
 
 </div>
